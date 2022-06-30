@@ -1,10 +1,12 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "PT Sans", sans-serif;
   text-align: center;
+  padding: 130px 0 194px;
 }
 header {
   font-family: "Montserrat";
@@ -33,4 +35,50 @@ p {
   font-size: 18px;
   line-height: 30px;
   color: #999999;
+}
+.icon {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background-image: url(images/anchor_black.png);
+  margin-bottom: 50px;
+}
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 0;
+  line-height: 0;
+}
+.item {
+  display: inline-block;
+  width: 25%;
+  padding: 55px 14px 81px;
+  border: 1px solid #ececec;
+}
+h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #1b1b1b;
+  margin-bottom: 30px;
+}
+.item p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #777777;
+}
+.item:hover p,
+.item:hover h2 {
+  color: #ffffff;
+}
+.item:hover .icon {
+  background-image: url(images/anchor.png);
+}
+.item:hover {
+  background: #0ec8cb;
 }
