@@ -13,6 +13,7 @@ header {
   font-style: normal;
   font-weight: 600;
   text-transform: uppercase;
+  margin-bottom: 90px;
 }
 h4 {
   margin-bottom: 20px;
@@ -40,9 +41,22 @@ p {
   display: inline-block;
   width: 65px;
   height: 65px;
-  background-image: url(images/anchor_black.png);
   margin-bottom: 50px;
+  background-repeat: no-repeat;
 }
+.anchor {
+  background-image: url(images/anchor_black.png);
+}
+.diamond {
+  background-image: url(images/diamond_black.png);
+}
+.glasses {
+  background-image: url(images/glasses_black.png);
+}
+.monitor {
+  background-image: url(images/monitor_black.png);
+}
+
 .wrapper {
   width: 960px;
   margin: 0 auto;
@@ -76,9 +90,18 @@ h2 {
 .item:hover h2 {
   color: #ffffff;
 }
-.item:hover .icon {
+.item:hover .anchor {
   background-image: url(images/anchor.png);
+}
+.item:hover .diamond {
+  background-image: url(images/diamond.png);
 }
 .item:hover {
   background: #0ec8cb;
+}
+.item:hover .glasses {
+  background-image: url(images/glasses.png);
+}
+.item:hover .monitor {
+  background-image: url(images/monitor.png);
 }
